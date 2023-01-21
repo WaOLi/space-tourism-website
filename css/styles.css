@@ -1,0 +1,176 @@
+/************ELEMENT************/
+div{
+ display: block-inline;
+}
+h1{
+ font-family: 'Bellefair', serif;
+ color: #ffffff;
+ display:block;
+ font-size: 150px;
+ font-weight: normal;
+ clear: right;
+}
+h2{
+ font-family: 'Bellefair', serif;
+ font-weight: normal;
+}
+h3{
+ color: #ffffff;
+ font-family: 'Bellefair', serif;
+ font-weight: normal;
+ padding-left: 40px;
+ padding-right: 40px;
+}
+p{
+ color: #ffffff;
+}
+a:link, a:visited{
+ text-decoration: none;
+ text-decoration-thickness: 5px;
+ color: #ffffff;
+}
+a:hover{
+ text-decoration: underline;
+ text-decoration-thickness: 5px;
+ text-decoration-color: #636363;
+ text-underline-offset: 1em;
+}
+/************CLASS************/
+.crew-member-indicator{
+ width:1em;
+ margin-right:2em;
+ filter: brightness(.2);
+}
+.crew-member-indicator:hover{
+ filter:brightness(.5);
+}
+.nav-op{
+ display: inline-block;
+ text-transform: uppercase;
+}
+.nav-op-2{
+ display: inline-block;
+ font-size:1em;
+ padding-left: 10px;
+ padding-right: 10px;
+ text-transform: uppercase;
+}
+.subheading{
+ color: #d0d6f9;
+ font-size: 1em;
+}
+.subheading-2{
+ color: #d0d6f9;
+}
+.navigation{
+ float: right;
+ backdrop-filter: blur(70px);
+}
+.navigation-2{
+ backdrop-filter: blur(70px);
+ float: left;
+ margin-bottom:50px;
+}
+.tech-indicator{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid grey;
+  position:relative;
+  color:white;
+  margin-bottom:2em;
+}
+.tech-indicator-current{
+  position:relative;
+  color:black;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-bottom:2em;
+  background-color:white;
+}
+.tech-indicator:hover{
+ border: 2px solid white;
+ position:relative;
+}
+/************ID************/
+#crew-member{
+ position: absolute;
+ bottom:0;
+ right:10em;
+ width:25em;
+}
+#crew-member-indicator-row{
+ position:absolute;
+ left:10em;
+ bottom:5em;
+}
+#crew-text{
+ margin-left: 10em;
+ width: 30em;
+ height: 23em;
+ display: inline-block;
+}
+#current{
+ color: #ffffff;
+ text-decoration: underline;
+ text-decoration-thickness: 5px;
+ text-underline-offset: 1em;
+}
+#current-member{
+ filter:brightness(1);
+}
+#text-block01{
+ /* position: absolute; */
+ display: inline-block;
+
+ margin-left: 200px;
+ margin-top: 200px;
+
+ width: 25em;
+ height: 23em;
+}
+#hr1{
+ display: inline;
+ float: right;
+ margin-top: 2em;
+ width: 38em;
+ position: absolute;
+ border:2px solid #636363;
+ z-index: 6;
+}
+#name{
+ color: white;
+ font-size: 3em;
+ margin-top:0;
+ text-transform: uppercase;
+}
+#rank{
+ color: #636363;
+ margin-top:3em;
+ text-transform: uppercase;
+}
+#tech-indicator-row{
+  display:inline-block;
+  width:5em;
+  margin:5em 0 0 7em;
+}
+#tech-text{
+  display:inline-block;
+  position:absolute;
+  margin-top:4em;
+  width:20em;
+}
+#tech-section{
+  position:relative;
+}
+#text-block02{
+ /* position: absolute; */
+ display: inline-block;
+
+ margin-left: 500px;
+ margin-top: 50px;
+
+ width: 25em;
+ height: 23em;
+}
